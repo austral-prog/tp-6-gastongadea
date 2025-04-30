@@ -20,6 +20,6 @@ def check_lists(list_to_compare1, list_to_compare2):
 def list_of_lists(list_of_lists_to_modify):
     l2=[]
     l2.append(list_of_lists_to_modify[0][:3])
-    l2.append(list_of_lists_to_modify[1:4])
-    l2.append(list_of_lists_to_modify[-2:])
+    l2.append(list_of_lists_to_modify[1][1:4])
+    l2.append(list_of_lists_to_modify[2][-2:])
     return l2
